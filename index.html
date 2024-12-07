@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Artist Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button id="toggle-theme">🌙</button>
+    </div>
+    <div class="container">
+        <h1>Spotify Artist Finder</h1>
+        <form id="search-form">
+            <input type="text" id="artist-name" placeholder="Enter artist name" required>
+            <button type="submit">Search</button>
+        </form>
+        <div id="result">
+            <img id="artist-image" src="" alt="Artist profile" hidden>
+            <p id="artist-name-display"></p>
+            <button id="download-btn" hidden>Download Image</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
